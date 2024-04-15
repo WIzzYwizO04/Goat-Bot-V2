@@ -65,7 +65,7 @@ if (config.whiteListMode?.whiteListIds && Array.isArray(config.whiteListMode.whi
 	config.whiteListMode.whiteListIds = config.whiteListMode.whiteListIds.map(id => id.toString());
 const configCommands = require(dirConfigCommands);
 
-global.GoatBot = {
+global.WIzzyBOt = {
 	startTime: Date.now() - process.uptime() * 1000, // time start bot (ms)
 	commands: new Map(), // store all commands
 	eventCommands: new Map(), // store all event commands
